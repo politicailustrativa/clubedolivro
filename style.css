@@ -102,6 +102,23 @@ html {
   font-weight: 500;
   letter-spacing: 1px;
 }
+.pricing-header-sub-premium {
+  background-image: linear-gradient(to right, #fdda4d, #ff914d);
+  color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.premium {
+  background-image: linear-gradient(to right, #fdda4d, #ff914d);
+  color: transparent;
+  background-clip: text;
+}
+.month {
+  color: #6d6d6d;
+  font-size: 12px;
+}
+
 
 .pricing-features {
   color: #3b3b3b;
@@ -112,7 +129,7 @@ html {
 
 .pricing-features-item {
   border-top: 1px solid #e1f1ff;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 15px 0;
 }
@@ -124,7 +141,15 @@ html {
 .pricing-price {
   color: #000000;
   display: block;
-  font-size: 32px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.pricing-price-premium {
+  background-image: linear-gradient(to right, #fdda4d, #ff914d);
+  color: transparent;
+  background-clip: text;
+  display: block;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -145,7 +170,7 @@ html {
 }
 
 .pricing-button.is-featured {
-  background-color: #ff914d ;
+  background-image:linear-gradient(to right, #f9d545, #f8833b);
   color: #fff;
 }
 
